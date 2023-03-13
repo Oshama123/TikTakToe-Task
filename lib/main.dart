@@ -198,7 +198,7 @@ class _HomePageState extends State<HomePage> {
               child: AnimatedContainer(
                 duration: const Duration(milliseconds: 300),
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10.0),
+                  borderRadius: BorderRadius.circular(50.0),
                   border: Border.all(color: Colors.yellow),
                   color: _tic[index] == ''
                       ? Colors.black
